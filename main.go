@@ -31,4 +31,6 @@ func main() {
 		fmt.Println("error writing file:", err)
 		os.Exit(1)
 	}
+
+	fmt.Println(args.outputFile)
 }
